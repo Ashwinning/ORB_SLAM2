@@ -1,0 +1,100 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_77446.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24720.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/31/2016 12:45:48 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_77446.dir\Debug\".
+  Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_77446.dir\Debug\cmTC_77446.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_77446.dir\Debug\cmTC_77446.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX11 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77446.dir\Debug\\" /Fd"cmTC_77446.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 -march=native -std=c++11 C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX11 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77446.dir\Debug\\" /Fd"cmTC_77446.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 -march=native -std=c++11 C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\src.cxx
+  
+cl : Command line warning D9002: ignoring unknown option '-O3' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-std=c++11' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+  src.cxx
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_77446.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_77446.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_77446.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_77446.dir\Debug\src.obj
+  cmTC_77446.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_77446.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_77446.dir\Debug\cmTC_77446.tlog\unsuccessfulbuild".
+  Touching "cmTC_77446.dir\Debug\cmTC_77446.tlog\cmTC_77446.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-O3' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+  cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+  cl : Command line warning D9002: ignoring unknown option '-std=c++11' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_77446.vcxproj]
+
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0928a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24720.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/31/2016 12:45:49 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0928a.dir\Debug\".
+  Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0928a.dir\Debug\cmTC_0928a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0928a.dir\Debug\cmTC_0928a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0928a.dir\Debug\\" /Fd"cmTC_0928a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 -march=native -std=c++0x C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0928a.dir\Debug\\" /Fd"cmTC_0928a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 -march=native -std=c++0x C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\src.cxx
+  
+cl : Command line warning D9002: ignoring unknown option '-O3' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+  src.cxx
+Link:
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_0928a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_0928a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_0928a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0928a.dir\Debug\src.obj
+  cmTC_0928a.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_0928a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0928a.dir\Debug\cmTC_0928a.tlog\unsuccessfulbuild".
+  Touching "cmTC_0928a.dir\Debug\cmTC_0928a.tlog\cmTC_0928a.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-O3' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+  cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+  cl : Command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_0928a.vcxproj]
+
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+Source file was:
+int main() { return 0; }

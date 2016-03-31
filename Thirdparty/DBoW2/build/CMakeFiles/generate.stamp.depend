@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/CMakeLists.txt
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.3.1/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.3.1/CMakeCCompiler.cmake
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.3.1/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/3.3.1/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/OpenCVConfig-version.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/OpenCVConfig.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/x86/vc12/lib/OpenCVConfig.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/x86/vc12/lib/OpenCVModules.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/x86/vc12/lib/OpenCVModules-debug.cmake
+E:/Program Files (x86)/OpenCV 2.4.11/opencv/build/x86/vc12/lib/OpenCVModules-release.cmake

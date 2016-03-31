@@ -1,0 +1,789 @@
+﻿cl : Command line warning D9002: ignoring unknown option '-O3'
+cl : Command line warning D9002: ignoring unknown option '-march=native'
+  FORB.cpp
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(82): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(802): warning C4365: 'return': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(1485): warning C4365: 'return': conversion from 'int' to 'size_t', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4601): warning C4820: 'cv::Param': '3' bytes padding added after data member 'cv::Param::readonly'
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4865): warning C4265: 'cv::TLSDataContainer': class has virtual functions, but destructor is not virtual
+           instances of this class may not be destructed correctly
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(192): warning C4365: 'return': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(193): warning C4365: 'return': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2494): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3257): warning C4365: 'return': conversion from 'size_t' to 'ptrdiff_t', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(134): warning C4365: 'initializing': conversion from 'int' to 'size_t', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(156): warning C4365: 'initializing': conversion from 'int' to 'size_t', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1769): warning C4365: 'initializing': conversion from 'size_t' to 'ptrdiff_t', signed/unsigned mismatch
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2151): warning C4365: 'return': conversion from 'int' to 'size_t', signed/unsigned mismatch
+c:\users\ashwin\documents\github\orb_slam2\thirdparty\dbow2\dbow2\FORB.h(38): warning C4263: 'void DBoW2::FORB::meanValue(const std::vector<DBoW2::FORB::pDescriptor,std::allocator<_Ty>> &,DBoW2::FORB::TDescriptor &)': member function does not override any base class virtual member function
+          with
+          [
+              _Ty=DBoW2::FORB::pDescriptor
+          ]
+c:\users\ashwin\documents\github\orb_slam2\thirdparty\dbow2\dbow2\FORB.h(74): warning C4264: 'void DBoW2::FClass::meanValue(const std::vector<DBoW2::FClass::pDescriptor,std::allocator<_Ty>> &,DBoW2::FClass::TDescriptor &)': no override available for virtual member function from base 'DBoW2::FClass'; function is hidden
+          with
+          [
+              _Ty=DBoW2::FClass::pDescriptor
+          ]
+  c:\users\ashwin\documents\github\orb_slam2\thirdparty\dbow2\dbow2\FClass.h(35): note: see declaration of 'DBoW2::FClass::meanValue'
+  c:\users\ashwin\documents\github\orb_slam2\thirdparty\dbow2\dbow2\FClass.h(26): note: see declaration of 'DBoW2::FClass'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(51): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(52): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(53): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(54): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(55): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(56): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(57): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(58): warning C4365: 'argument': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(65): warning C4365: 'initializing': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(65): warning C4365: 'initializing': conversion from 'unsigned int' to 'const int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(94): warning C4365: 'initializing': conversion from 'int' to 'unsigned int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(150): warning C4365: 'argument': conversion from 'const size_t' to 'int', signed/unsigned mismatch
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(160): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(161): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(162): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(163): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(164): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(165): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(166): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(167): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(177): warning C4365: 'argument': conversion from 'unsigned int' to 'int', signed/unsigned mismatch
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2229): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl'
+  C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(184): note: see reference to function template instantiation '_OutIt std::copy<const unsigned char*,unsigned char*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned char *,
+              _InIt=const unsigned char *
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(354): warning C4514: 'abs': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(359): warning C4514: 'abs': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(364): warning C4514: 'div': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(369): warning C4514: 'div': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(278): warning C4514: 'fpclassify': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(283): warning C4514: 'fpclassify': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(288): warning C4514: 'fpclassify': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(293): warning C4514: 'signbit': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(298): warning C4514: 'signbit': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(303): warning C4514: 'signbit': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(308): warning C4514: '_fpcomp': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(313): warning C4514: '_fpcomp': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(318): warning C4514: '_fpcomp': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(794): warning C4514: '_chgsignl': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(801): warning C4514: '_copysignl': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(855): warning C4514: '_hypotl': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(40): warning C4514: 'pow': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(50): warning C4514: 'acos': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(55): warning C4514: 'acosh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(60): warning C4514: 'asin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(65): warning C4514: 'asinh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(70): warning C4514: 'atan': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(75): warning C4514: 'atanh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(80): warning C4514: 'atan2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(85): warning C4514: 'cbrt': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(90): warning C4514: 'ceil': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(95): warning C4514: 'copysign': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(101): warning C4514: 'cos': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(106): warning C4514: 'cosh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(111): warning C4514: 'erf': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(116): warning C4514: 'erfc': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(121): warning C4514: 'exp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(126): warning C4514: 'exp2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(131): warning C4514: 'expm1': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(136): warning C4514: 'fabs': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(141): warning C4514: 'fdim': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(146): warning C4514: 'floor': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(151): warning C4514: 'fma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(157): warning C4514: 'fmax': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(162): warning C4514: 'fmin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(167): warning C4514: 'fmod': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(172): warning C4514: 'frexp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(177): warning C4514: 'hypot': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(182): warning C4514: 'ilogb': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(187): warning C4514: 'ldexp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(192): warning C4514: 'lgamma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(197): warning C4514: 'llrint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(202): warning C4514: 'llround': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(207): warning C4514: 'log': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(212): warning C4514: 'log10': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(217): warning C4514: 'log1p': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(222): warning C4514: 'log2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(227): warning C4514: 'logb': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(232): warning C4514: 'lrint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(237): warning C4514: 'lround': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(242): warning C4514: 'modf': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(247): warning C4514: 'nearbyint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(252): warning C4514: 'nextafter': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(257): warning C4514: 'nexttoward': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(263): warning C4514: 'pow': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(269): warning C4514: 'pow': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(274): warning C4514: 'remainder': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(279): warning C4514: 'remquo': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285): warning C4514: 'rint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(290): warning C4514: 'round': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(295): warning C4514: 'scalbln': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(300): warning C4514: 'scalbn': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(305): warning C4514: 'sin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(310): warning C4514: 'sinh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(315): warning C4514: 'sqrt': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(320): warning C4514: 'tan': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(325): warning C4514: 'tanh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(330): warning C4514: 'tgamma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(335): warning C4514: 'trunc': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(340): warning C4514: 'abs': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(345): warning C4514: 'acos': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(350): warning C4514: 'acosh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(355): warning C4514: 'asin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(360): warning C4514: 'asinh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(365): warning C4514: 'atan': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(370): warning C4514: 'atanh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(375): warning C4514: 'atan2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(381): warning C4514: 'cbrt': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(386): warning C4514: 'ceil': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(391): warning C4514: 'copysign': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(397): warning C4514: 'cos': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(402): warning C4514: 'cosh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(407): warning C4514: 'erf': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(412): warning C4514: 'erfc': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(417): warning C4514: 'exp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(422): warning C4514: 'exp2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(427): warning C4514: 'expm1': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(432): warning C4514: 'fabs': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(437): warning C4514: 'fdim': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(443): warning C4514: 'floor': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(448): warning C4514: 'fma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(454): warning C4514: 'fmax': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(460): warning C4514: 'fmin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(466): warning C4514: 'fmod': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(472): warning C4514: 'frexp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(478): warning C4514: 'hypot': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(484): warning C4514: 'ilogb': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(489): warning C4514: 'ldexp': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(495): warning C4514: 'lgamma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(500): warning C4514: 'llrint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(505): warning C4514: 'llround': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(510): warning C4514: 'log': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(515): warning C4514: 'log10': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(520): warning C4514: 'log1p': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(525): warning C4514: 'log2': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(530): warning C4514: 'logb': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(535): warning C4514: 'lrint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(540): warning C4514: 'lround': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(545): warning C4514: 'modf': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(551): warning C4514: 'nearbyint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(556): warning C4514: 'nextafter': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(562): warning C4514: 'nexttoward': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(568): warning C4514: 'pow': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(574): warning C4514: 'pow': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(580): warning C4514: 'remainder': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(586): warning C4514: 'remquo': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(592): warning C4514: 'rint': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(597): warning C4514: 'round': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(602): warning C4514: 'scalbln': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(608): warning C4514: 'scalbn': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(614): warning C4514: 'sin': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(619): warning C4514: 'sinh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(624): warning C4514: 'sqrt': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(629): warning C4514: 'tan': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(634): warning C4514: 'tanh': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(639): warning C4514: 'tgamma': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(644): warning C4514: 'trunc': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h(64): warning C4514: 'memmove_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(100): warning C4514: '_vcwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(127): warning C4514: '_vcwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(154): warning C4514: '_vcwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(167): warning C4514: '_cwprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(185): warning C4514: '_cwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(202): warning C4514: '_cwprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(220): warning C4514: '_cwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(237): warning C4514: '_cwprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(255): warning C4514: '_cwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(303): warning C4514: '_vcwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(335): warning C4514: '_vcwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(348): warning C4514: '_cwscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(371): warning C4514: '_cwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(393): warning C4514: '_cwscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h(411): warning C4514: '_cwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wio.h(227): warning C4514: '_wopen': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wio.h(240): warning C4514: '_wsopen': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(309): warning C4514: 'vfwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(340): warning C4514: 'vfwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(371): warning C4514: '_vfwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(385): warning C4514: '_vwprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(399): warning C4514: 'vwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(412): warning C4514: '_vwprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(428): warning C4514: 'vwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(443): warning C4514: '_vwprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(457): warning C4514: '_vwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(470): warning C4514: '_fwprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(489): warning C4514: 'fwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(507): warning C4514: '_fwprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(528): warning C4514: 'fwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(548): warning C4514: '_fwprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(567): warning C4514: '_fwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(585): warning C4514: '_wprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(603): warning C4514: 'wprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(620): warning C4514: '_wprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(640): warning C4514: 'wprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(659): warning C4514: '_wprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(677): warning C4514: '_wprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(726): warning C4514: 'vfwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(759): warning C4514: 'vfwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(774): warning C4514: '_vwscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(788): warning C4514: 'vwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(801): warning C4514: '_vwscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(817): warning C4514: 'vwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(832): warning C4514: '_fwscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(851): warning C4514: 'fwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(869): warning C4514: '_fwscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(890): warning C4514: 'fwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(910): warning C4514: '_wscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(928): warning C4514: 'wscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(945): warning C4514: '_wscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(965): warning C4514: 'wscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1092): warning C4514: '_vsnwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1120): warning C4514: '_vsnwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1169): warning C4514: '_vswprintf_c': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1221): warning C4514: '_vswprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1274): warning C4514: 'vswprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1321): warning C4514: '_vswprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1356): warning C4514: '_vscwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1389): warning C4514: '_vscwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1403): warning C4514: '__swprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1423): warning C4514: '_swprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1444): warning C4514: '_swprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1463): warning C4514: 'swprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1506): warning C4514: '_swprintf_s_l': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'int swprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1528): note: see declaration of 'swprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1557): warning C4514: '_swprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1578): warning C4514: '_swprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1598): warning C4514: '_swprintf_c_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1619): warning C4514: '_swprintf_c': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1639): warning C4514: '_snwprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1665): warning C4514: '_snwprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1690): warning C4514: '_snwprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1712): warning C4514: '_snwprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1740): warning C4514: '_scwprintf_l': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'int _scwprintf(const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1759): note: see declaration of '_scwprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1777): warning C4514: '_scwprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1796): warning C4514: '_scwprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1820): warning C4514: 'swprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1835): warning C4514: 'vswprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1846): warning C4514: '_swprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1861): warning C4514: '_vswprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1919): warning C4514: 'vswscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1954): warning C4514: 'vswscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2017): warning C4514: '_swscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2037): warning C4514: 'swscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2056): warning C4514: '_swscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2078): warning C4514: 'swscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2099): warning C4514: '_snwscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2125): warning C4514: '_snwscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2150): warning C4514: '_snwscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(2171): warning C4514: '_snwscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(159): warning C4514: 'wcsnlen_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(240): warning C4514: '_wcstok': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(254): warning C4514: 'wcstok': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(532): warning C4514: 'wcschr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(538): warning C4514: 'wcspbrk': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(544): warning C4514: 'wcsrchr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(551): warning C4514: 'wcsstr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h(185): warning C4514: '_wctime': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h(192): warning C4514: '_wctime_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\sys/stat.h(236): warning C4514: 'fstat': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\sys/stat.h(241): warning C4514: 'stat': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\wchar.h(181): warning C4514: 'fwide': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\wchar.h(190): warning C4514: 'mbsinit': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\wchar.h(269): warning C4514: 'wmemchr': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::exception_ptr std::exception_ptr::_Current_exception(void) throw()': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(299): note: see declaration of 'std::exception_ptr::_Current_exception'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::exception_ptr std::current_exception(void) noexcept': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception(358): note: see declaration of 'std::current_exception'
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h(92): warning C4514: 'operator delete': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h(101): warning C4514: 'operator new[]': unreferenced inline function has been removed
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h(107): warning C4514: 'operator delete[]': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(644): warning C4514: 'vfprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(675): warning C4514: 'vfprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(706): warning C4514: '_vfprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(720): warning C4514: '_vprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(734): warning C4514: 'vprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(747): warning C4514: '_vprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(763): warning C4514: 'vprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(778): warning C4514: '_vprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(792): warning C4514: '_vprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(805): warning C4514: '_fprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(824): warning C4514: 'fprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(848): warning C4514: '_fprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(869): warning C4514: 'fprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(889): warning C4514: '_fprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(908): warning C4514: '_fprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(926): warning C4514: '_printf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(944): warning C4514: 'printf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(961): warning C4514: '_printf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(981): warning C4514: 'printf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1000): warning C4514: '_printf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1018): warning C4514: '_printf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1066): warning C4514: 'vfscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1100): warning C4514: 'vfscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1116): warning C4514: '_vscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1130): warning C4514: 'vscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1143): warning C4514: '_vscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1159): warning C4514: 'vscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1174): warning C4514: '_fscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): warning C4514: 'fscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1211): warning C4514: '_fscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1232): warning C4514: 'fscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1252): warning C4514: '_scanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): warning C4514: 'scanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1287): warning C4514: '_scanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1307): warning C4514: 'scanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): warning C4514: 'vsprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1506): warning C4514: 'vsprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1553): warning C4514: '_vsprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1591): warning C4514: '_vsnprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1619): warning C4514: 'vsnprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1664): warning C4514: '_vscprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1729): warning C4514: '_vsnprintf_c': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1744): warning C4514: '_sprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): warning C4514: 'sprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1803): warning C4514: '_sprintf_s_l': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'int sprintf_s(char *const ,const size_t,const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1826): note: see declaration of 'sprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1854): warning C4514: '_sprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1875): warning C4514: '_sprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1895): warning C4514: '_snprintf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1932): warning C4514: 'snprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): warning C4514: '_snprintf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1982): warning C4514: '_snprintf_c_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2003): warning C4514: '_snprintf_c': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2023): warning C4514: '_snprintf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2045): warning C4514: '_snprintf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2073): warning C4514: '_scprintf_l': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'int _scprintf(const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2091): note: see declaration of '_scprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2108): warning C4514: '_scprintf_p_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2126): warning C4514: '_scprintf_p': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2174): warning C4514: 'vsscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2235): warning C4514: '_sscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): warning C4514: 'sscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2272): warning C4514: '_sscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2293): warning C4514: 'sscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2321): warning C4514: '_snscanf_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2345): warning C4514: '_snscanf': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2369): warning C4514: '_snscanf_s_l': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2393): warning C4514: '_snscanf_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h(97): warning C4514: 'memchr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(373): warning C4514: 'strnlen_s': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(517): warning C4514: 'strchr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(523): warning C4514: 'strpbrk': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(529): warning C4514: 'strrchr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(535): warning C4514: 'strstr': unreferenced inline function has been removed
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\ctype.h(175): warning C4514: '_ischartype_l': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::locale::name(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(447): note: see declaration of 'std::locale::name'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::error_code::message(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(268): note: see declaration of 'std::error_code::message'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_System_error::_Makestr(std::error_code,std::string)': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(502): note: see declaration of 'std::_System_error::_Makestr'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Generic_error_category::message(int) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(594): note: see declaration of 'std::_Generic_error_category::message'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Iostream_error_category::message(int) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(615): note: see declaration of 'std::_Iostream_error_category::message'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_System_error_category::message(int) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(639): note: see declaration of 'std::_System_error_category::message'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::locale std::ios_base::getloc(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xiosbase(422): note: see declaration of 'std::ios_base::getloc'
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(343): warning C4514: 'cvFloor': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(360): warning C4514: 'cvCeil': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(379): warning C4514: 'cvIsNaN': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(388): warning C4514: 'cvIsInf': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(403): warning C4514: 'cvRNG': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(419): warning C4514: 'cvRandReal': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(763): warning C4514: 'cvmGet': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(781): warning C4514: 'cvmSet': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(798): warning C4514: 'cvIplDepth': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(973): warning C4514: 'cvRectToROI': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(986): warning C4514: 'cvROIToRect': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1029): warning C4514: 'cvPoint': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1059): warning C4514: 'cvPointTo32f': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1065): warning C4514: 'cvPointFrom32f': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1084): warning C4514: 'cvPoint3D32f': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1104): warning C4514: 'cvPoint2D64f': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1124): warning C4514: 'cvPoint3D64f': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1145): warning C4514: 'cvSize': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1229): warning C4514: 'cvScalar': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1239): warning C4514: 'cvRealScalar': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1247): warning C4514: 'cvScalarAll': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/types_c.h(1762): warning C4514: 'cvAttrList': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(344): warning C4514: 'cv::alignSize': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(1485): warning C4514: 'cv::getElemSize': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(1494): warning C4514: 'cv::MatAllocator::MatAllocator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(3917): warning C4514: 'cv::KDTree::Node::Node': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(3918): warning C4514: 'cv::KDTree::Node::Node': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4118): warning C4514: 'cv::FileStorage::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4120): warning C4514: 'cv::FileStorage::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4489): warning C4514: 'cv::Algorithm::info': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4844): warning C4514: 'cv::AutoLock::AutoLock': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(4845): warning C4514: 'cv::AutoLock::~AutoLock': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(127): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(129): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(133): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(122): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(124): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(125): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(142): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(144): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(151): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(161): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(163): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(167): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(169): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(174): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(181): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(183): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(188): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(189): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(192): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(193): warning C4514: 'cv::saturate_cast': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(195): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(196): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(197): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(198): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(199): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(200): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(201): warning C4514: 'cv::fast_abs': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(697): warning C4514: 'cv::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(1013): warning C4514: 'cv::normL2Sqr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(1047): warning C4514: 'cv::normL1': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(1060): warning C4514: 'cv::normL1': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(632): warning C4514: 'cv::Vec<float,2>::conj': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(632): warning C4514: 'cv::Vec<double,2>::conj': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(632): warning C4514: 'cv::Vec<float,4>::conj': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(632): warning C4514: 'cv::Vec<double,4>::conj': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(639): warning C4514: 'cv::Vec<float,3>::cross': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/core.hpp(639): warning C4514: 'cv::Vec<double,3>::cross': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2003): warning C4514: 'cv::RotatedRect::RotatedRect': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2004): warning C4514: 'cv::RotatedRect::RotatedRect': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2006): warning C4514: 'cv::RotatedRect::RotatedRect': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2008): warning C4514: 'cv::RotatedRect::operator CvBox2D': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2210): warning C4514: 'cv::Range::Range': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2212): warning C4514: 'cv::Range::Range': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2218): warning C4514: 'cv::Range::size': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2219): warning C4514: 'cv::Range::empty': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2228): warning C4514: 'cv::operator !': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2238): warning C4514: 'cv::operator &=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2249): warning C4514: 'cv::operator +': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2254): warning C4514: 'cv::operator -': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2259): warning C4514: 'cv::Range::operator CvSlice': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2481): warning C4514: 'cv::RNG::RNG': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2482): warning C4514: 'cv::RNG::RNG': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2489): warning C4514: 'cv::RNG::operator uchar': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2490): warning C4514: 'cv::RNG::operator schar': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2491): warning C4514: 'cv::RNG::operator ushort': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2492): warning C4514: 'cv::RNG::operator short': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2493): warning C4514: 'cv::RNG::operator unsigned int': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2494): warning C4514: 'cv::RNG::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2495): warning C4514: 'cv::RNG::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2496): warning C4514: 'cv::RNG::operator int': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2505): warning C4514: 'cv::RNG::uniform': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2506): warning C4514: 'cv::RNG::uniform': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2508): warning C4514: 'cv::TermCriteria::TermCriteria': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2509): warning C4514: 'cv::TermCriteria::TermCriteria': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2511): warning C4514: 'cv::TermCriteria::TermCriteria': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2513): warning C4514: 'cv::TermCriteria::operator CvTermCriteria': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2516): warning C4514: 'cv::LineIterator::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2524): warning C4514: 'cv::LineIterator::operator ++': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2530): warning C4514: 'cv::LineIterator::pos': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2795): warning C4514: 'cv::write': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2800): warning C4514: 'cv::write': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2805): warning C4514: 'cv::write': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2857): warning C4514: 'cv::write': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2926): warning C4514: 'cv::write': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2989): warning C4514: 'cv::operator <<': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(2992): warning C4514: 'cv::operator <<': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3002): warning C4514: 'cv::FileNode::empty': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3004): warning C4514: 'cv::FileNode::isSeq': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3005): warning C4514: 'cv::FileNode::isMap': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3006): warning C4514: 'cv::FileNode::isInt': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3007): warning C4514: 'cv::FileNode::isReal': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3008): warning C4514: 'cv::FileNode::isString': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3009): warning C4514: 'cv::FileNode::isNamed': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3017): warning C4514: 'cv::FileNode::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3018): warning C4514: 'cv::FileNode::operator *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3027): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3033): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3039): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3045): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3051): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3121): warning C4514: 'cv::read': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3131): warning C4514: 'cv::FileNode::operator int': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3137): warning C4514: 'cv::FileNode::operator float': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3143): warning C4514: 'cv::FileNode::operator double': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3149): warning C4514: 'cv::FileNode::operator std::string': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3156): warning C4514: 'cv::FileNode::readRaw': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3224): warning C4514: 'cv::FileNodeIterator::operator ->': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3255): warning C4514: 'cv::operator -': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3260): warning C4514: 'cv::operator <': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3265): warning C4514: 'cv::FileStorage::getFirstTopLevelNode': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3921): warning C4514: 'cv::format': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3946): warning C4514: 'cv::operator <<': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/operations.hpp(3959): warning C4514: 'cv::operator <<': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(72): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(85): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(91): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(98): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(104): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(129): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(151): warning C4514: 'cv::Mat::Mat': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'cv::Mat cv::Mat::row(int) const': function not inlined
+  E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(309): note: see declaration of 'cv::Mat::row'
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(310): warning C4514: 'cv::Mat::col': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(311): warning C4514: 'cv::Mat::rowRange': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(313): warning C4514: 'cv::Mat::rowRange': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(315): warning C4514: 'cv::Mat::colRange': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(317): warning C4514: 'cv::Mat::colRange': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(320): warning C4514: 'cv::Mat::diag': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'cv::Mat cv::Mat::clone(void) const': function not inlined
+  E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(332): note: see declaration of 'cv::Mat::clone'
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(339): warning C4514: 'cv::Mat::assignTo': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(356): warning C4514: 'cv::Mat::create': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(361): warning C4514: 'cv::Mat::addref': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(374): warning C4514: 'cv::Mat::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(379): warning C4514: 'cv::Mat::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(382): warning C4514: 'cv::Mat::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(387): warning C4514: 'cv::Mat::operator CvMat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(397): warning C4514: 'cv::Mat::isSubmatrix': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(401): warning C4514: 'cv::Mat::depth': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(402): warning C4514: 'cv::Mat::channels': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(403): warning C4514: 'cv::Mat::step1': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(404): warning C4514: 'cv::Mat::empty': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(415): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(421): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(440): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(448): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(472): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(481): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(508): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(521): warning C4514: 'cv::Mat::ptr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(710): warning C4514: 'cv::Mat::MSize::operator ()': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(716): warning C4514: 'cv::Mat::MSize::operator []': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(717): warning C4514: 'cv::Mat::MSize::operator const int *': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(733): warning C4514: 'cv::Mat::MSize::operator !=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(739): warning C4514: 'cv::Mat::MStep::MStep': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(742): warning C4514: 'cv::Mat::MStep::operator size_t': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(747): warning C4514: 'cv::Mat::MStep::operator =': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(754): warning C4514: 'cv::cvarrToMatND': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(761): warning C4514: 'cv::SVD::SVD': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(763): warning C4514: 'cv::SVD::solveZ': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1177): warning C4514: 'cv::MatOp::MatOp': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1219): warning C4514: 'cv::MatExpr::MatExpr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1220): warning C4514: 'cv::MatExpr::MatExpr': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1224): warning C4514: 'cv::MatExpr::operator cv::Mat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1437): warning C4514: 'cv::operator +=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1443): warning C4514: 'cv::operator +=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1463): warning C4514: 'cv::operator +=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1476): warning C4514: 'cv::operator -=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1482): warning C4514: 'cv::operator -=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1502): warning C4514: 'cv::operator -=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1515): warning C4514: 'cv::operator *=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1521): warning C4514: 'cv::operator *=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1541): warning C4514: 'cv::operator *=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1554): warning C4514: 'cv::operator /=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1560): warning C4514: 'cv::operator /=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1580): warning C4514: 'cv::operator /=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1595): warning C4514: 'cv::operator &=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1601): warning C4514: 'cv::operator &=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1621): warning C4514: 'cv::operator |=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1627): warning C4514: 'cv::operator |=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1647): warning C4514: 'cv::operator ^=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1653): warning C4514: 'cv::operator ^=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1712): warning C4514: 'cv::MatConstIterator::MatConstIterator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1715): warning C4514: 'cv::MatConstIterator::MatConstIterator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1726): warning C4514: 'cv::MatConstIterator::MatConstIterator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1739): warning C4514: 'cv::MatConstIterator::MatConstIterator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1756): warning C4514: 'cv::MatConstIterator::operator =': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1779): warning C4514: 'cv::MatConstIterator::operator -=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1782): warning C4514: 'cv::MatConstIterator::operator --': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1792): warning C4514: 'cv::MatConstIterator::operator --': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1799): warning C4514: 'cv::MatConstIterator::operator ++': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1809): warning C4514: 'cv::MatConstIterator::operator ++': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1960): warning C4514: 'cv::operator ==': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1984): warning C4514: 'cv::operator <': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1988): warning C4514: 'cv::operator >': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1992): warning C4514: 'cv::operator <=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(1996): warning C4514: 'cv::operator >=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2004): warning C4514: 'cv::operator +': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2007): warning C4514: 'cv::operator -': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2022): warning C4514: 'cv::MatConstIterator::operator []': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2091): warning C4514: 'cv::SparseMat::SparseMat': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2121): warning C4514: 'cv::SparseMat::operator =': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2124): warning C4514: 'cv::SparseMat::clone': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2132): warning C4514: 'cv::SparseMat::assignTo': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2150): warning C4514: 'cv::SparseMat::elemSize': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2153): warning C4514: 'cv::SparseMat::elemSize1': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2156): warning C4514: 'cv::SparseMat::type': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2159): warning C4514: 'cv::SparseMat::depth': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2162): warning C4514: 'cv::SparseMat::channels': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2165): warning C4514: 'cv::SparseMat::size': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2170): warning C4514: 'cv::SparseMat::size': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2180): warning C4514: 'cv::SparseMat::dims': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2185): warning C4514: 'cv::SparseMat::nzcount': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2190): warning C4514: 'cv::SparseMat::hash': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2195): warning C4514: 'cv::SparseMat::hash': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2200): warning C4514: 'cv::SparseMat::hash': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2205): warning C4514: 'cv::SparseMat::hash': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2270): warning C4514: 'cv::SparseMat::node': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2273): warning C4514: 'cv::SparseMat::node': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2276): warning C4514: 'cv::SparseMat::begin': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2279): warning C4514: 'cv::SparseMat::begin': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2282): warning C4514: 'cv::SparseMat::end': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2285): warning C4514: 'cv::SparseMat::end': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2314): warning C4514: 'cv::operator !=': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2338): warning C4514: 'cv::SparseMatConstIterator::operator ++': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2355): warning C4514: 'cv::SparseMatIterator::SparseMatIterator': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2367): warning C4514: 'cv::SparseMatIterator::operator =': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2376): warning C4514: 'cv::SparseMatIterator::node': unreferenced inline function has been removed
+E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv2/core/mat.hpp(2387): warning C4514: 'cv::SparseMatIterator::operator ++': unreferenced inline function has been removed
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_truename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(215): note: see declaration of 'std::numpunct<wchar_t>::do_truename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_falsename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(210): note: see declaration of 'std::numpunct<wchar_t>::do_falsename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::numpunct<wchar_t>::do_grouping(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(205): note: see declaration of 'std::numpunct<wchar_t>::do_grouping'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_truename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(215): note: see declaration of 'std::numpunct<char>::do_truename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_falsename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(210): note: see declaration of 'std::numpunct<char>::do_falsename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::numpunct<char>::do_grouping(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(205): note: see declaration of 'std::numpunct<char>::do_grouping'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::str(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sstream(643): note: see declaration of 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::str'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::truename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(107): note: see declaration of 'std::numpunct<wchar_t>::truename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::falsename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(102): note: see declaration of 'std::numpunct<wchar_t>::falsename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::truename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(107): note: see declaration of 'std::numpunct<char>::truename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::falsename(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(102): note: see declaration of 'std::numpunct<char>::falsename'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::_String_iterator<std::_String_val<std::_Simple_types<char>>> std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end(void) noexcept': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(1604): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::_String_iterator<std::_String_val<std::_Simple_types<char>>> std::basic_string<char,std::char_traits<char>,std::allocator<char>>::begin(void) noexcept': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(1594): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::begin'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>>::str(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sstream(92): note: see declaration of 'std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>>::str'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::numpunct<wchar_t>::grouping(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(97): note: see declaration of 'std::numpunct<wchar_t>::grouping'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::numpunct<char>::grouping(void) const': function not inlined
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(97): note: see declaration of 'std::numpunct<char>::grouping'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<int>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=int
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<unsigned int>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned int
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<long>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<unsigned long>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned long
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<__int64>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=__int64
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Integral_to_string<unsigned __int64>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(488): note: see declaration of 'std::_Integral_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Floating_to_string<float>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=float
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(498): note: see declaration of 'std::_Floating_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Floating_to_string<double>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=double
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(498): note: see declaration of 'std::_Floating_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::string std::_Floating_to_string<long double>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long double
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(498): note: see declaration of 'std::_Floating_to_string'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<int>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=int
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<unsigned int>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned int
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<long>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<unsigned long>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned long
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<__int64>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=__int64
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Integral_to_wstring<unsigned __int64>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(511): note: see declaration of 'std::_Integral_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=float
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(521): note: see declaration of 'std::_Floating_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Floating_to_wstring<double>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=double
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(521): note: see declaration of 'std::_Floating_to_wstring'
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\DBoW2\FORB.cpp(194): warning C4710: 'std::wstring std::_Floating_to_wstring<long double>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long double
+          ]
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string(521): note: see declaration of 'std::_Floating_to_wstring'
+  DBoW2.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\DBoW2\lib\Debug\DBoW2.dll
