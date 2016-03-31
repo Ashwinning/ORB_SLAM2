@@ -1,3 +1,0 @@
-C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir

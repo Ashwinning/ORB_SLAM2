@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{02B62938-8096-48BB-85A3-B92278360FF4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\core;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\types;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\stuff;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\core;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\types;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\stuff;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\core;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\types;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\stuff;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\core;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\types;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\stuff;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\config.h.in;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\config.h.in;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\config.h.in;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\config.h.in;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/ZERO_CHECK.vcxproj">
+      <Project>A05AB0FB-36EC-402D-8805-67223F2A46EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/g2o.vcxproj">
+      <Project>97491E06-289F-4D2A-A157-1AFA5189E77F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
