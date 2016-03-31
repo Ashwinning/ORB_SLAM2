@@ -1,0 +1,1350 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_aecf2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_aecf2.dir\build.make CMakeFiles/cmTC_aecf2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aecf2.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_aecf2.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_aecf2.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aecf2.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_aecf2.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_aecf2.dir/objects.a @CMakeFiles\cmTC_aecf2.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -fopenmp    -Wl,--whole-archive CMakeFiles\cmTC_aecf2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_aecf2.exe -Wl,--out-implib,libcmTC_aecf2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_aecf2.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_aecf2.dir\build.make:98: recipe for target 'cmTC_aecf2.exe' failed
+mingw32-make.exe[1]: *** [cmTC_aecf2.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_aecf2/fast' failed
+mingw32-make.exe: *** [cmTC_aecf2/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b8322/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b8322.dir\build.make CMakeFiles/cmTC_b8322.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8322.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_b8322.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: error: 'breaks_on_purpose' undeclared (first use in this function)
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_b8322.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_b8322.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b8322.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_b8322/fast' failed
+mingw32-make.exe: *** [cmTC_b8322/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_07d7d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_07d7d.dir\build.make CMakeFiles/cmTC_07d7d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07d7d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_07d7d.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_07d7d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_07d7d.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_07d7d.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_07d7d/fast' failed
+mingw32-make.exe: *** [cmTC_07d7d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7ec4b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7ec4b.dir\build.make CMakeFiles/cmTC_7ec4b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ec4b.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_7ec4b.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_7ec4b.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_7ec4b.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7ec4b.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_7ec4b/fast' failed
+mingw32-make.exe: *** [cmTC_7ec4b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f2c0a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f2c0a.dir\build.make CMakeFiles/cmTC_f2c0a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2c0a.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles\cmTC_f2c0a.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: error: 'breaks_on_purpose' undeclared (first use in this function)
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_f2c0a.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_f2c0a.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f2c0a.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_f2c0a/fast' failed
+mingw32-make.exe: *** [cmTC_f2c0a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_273a6/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_273a6.dir\build.make CMakeFiles/cmTC_273a6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_273a6.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles\cmTC_273a6.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: language openmp not recognized
+gcc.exe: error: language openmp not recognized
+CMakeFiles\cmTC_273a6.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_273a6.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_273a6.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_273a6/fast' failed
+mingw32-make.exe: *** [cmTC_273a6/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d2c69/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d2c69.dir\build.make CMakeFiles/cmTC_d2c69.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2c69.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles\cmTC_d2c69.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: +Oopenmp: No such file or directory
+CMakeFiles\cmTC_d2c69.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_d2c69.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d2c69.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_d2c69/fast' failed
+mingw32-make.exe: *** [cmTC_d2c69/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_98e40/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_98e40.dir\build.make CMakeFiles/cmTC_98e40.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98e40.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles\cmTC_98e40.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-qsmp'
+CMakeFiles\cmTC_98e40.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_98e40.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_98e40.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_98e40/fast' failed
+mingw32-make.exe: *** [cmTC_98e40/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_4cb39/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4cb39.dir\build.make CMakeFiles/cmTC_4cb39.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cb39.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles\cmTC_4cb39.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-mp'
+CMakeFiles\cmTC_4cb39.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_4cb39.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_4cb39.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_4cb39/fast' failed
+mingw32-make.exe: *** [cmTC_4cb39/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_724a4/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_724a4.dir\build.make CMakeFiles/cmTC_724a4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_724a4.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_724a4.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_724a4.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_724a4.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_724a4.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_724a4.dir/objects.a @CMakeFiles\cmTC_724a4.dir\objects1.rsp
+C:\MinGW\bin\g++.exe   -DOpenMP_FLAG_DETECTED -fopenmp    -Wl,--whole-archive CMakeFiles\cmTC_724a4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_724a4.exe -Wl,--out-implib,libcmTC_724a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_724a4.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_724a4.dir\build.make:98: recipe for target 'cmTC_724a4.exe' failed
+mingw32-make.exe[1]: *** [cmTC_724a4.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_724a4/fast' failed
+mingw32-make.exe: *** [cmTC_724a4/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c8013/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c8013.dir\build.make CMakeFiles/cmTC_c8013.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8013.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_c8013.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx: In function 'int main()':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:7:3: error: 'breaks_on_purpose' was not declared in this scope
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_c8013.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_c8013.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c8013.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_c8013/fast' failed
+mingw32-make.exe: *** [cmTC_c8013/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8b7c1/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8b7c1.dir\build.make CMakeFiles/cmTC_8b7c1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b7c1.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_8b7c1.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_8b7c1.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_8b7c1.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8b7c1.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_8b7c1/fast' failed
+mingw32-make.exe: *** [cmTC_8b7c1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6d9f7/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6d9f7.dir\build.make CMakeFiles/cmTC_6d9f7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d9f7.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_6d9f7.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_6d9f7.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_6d9f7.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6d9f7.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_6d9f7/fast' failed
+mingw32-make.exe: *** [cmTC_6d9f7/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e7ba5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e7ba5.dir\build.make CMakeFiles/cmTC_e7ba5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7ba5.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles\cmTC_e7ba5.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx: In function 'int main()':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:7:3: error: 'breaks_on_purpose' was not declared in this scope
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_e7ba5.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_e7ba5.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e7ba5.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_e7ba5/fast' failed
+mingw32-make.exe: *** [cmTC_e7ba5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8c0f7/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8c0f7.dir\build.make CMakeFiles/cmTC_8c0f7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c0f7.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles\cmTC_8c0f7.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: language openmp not recognized
+g++.exe: error: language openmp not recognized
+CMakeFiles\cmTC_8c0f7.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_8c0f7.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8c0f7.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_8c0f7/fast' failed
+mingw32-make.exe: *** [cmTC_8c0f7/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_bf333/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bf333.dir\build.make CMakeFiles/cmTC_bf333.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf333.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles\cmTC_bf333.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: +Oopenmp: No such file or directory
+CMakeFiles\cmTC_bf333.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_bf333.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_bf333.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_bf333/fast' failed
+mingw32-make.exe: *** [cmTC_bf333/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6fb8b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6fb8b.dir\build.make CMakeFiles/cmTC_6fb8b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fb8b.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles\cmTC_6fb8b.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-qsmp'
+CMakeFiles\cmTC_6fb8b.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_6fb8b.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6fb8b.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_6fb8b/fast' failed
+mingw32-make.exe: *** [cmTC_6fb8b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_96a7d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_96a7d.dir\build.make CMakeFiles/cmTC_96a7d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96a7d.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles\cmTC_96a7d.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-mp'
+CMakeFiles\cmTC_96a7d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_96a7d.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_96a7d.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_96a7d/fast' failed
+mingw32-make.exe: *** [cmTC_96a7d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8742c/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8742c.dir\build.make CMakeFiles/cmTC_8742c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_8742c.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_8742c.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+CMakeFiles\cmTC_8742c.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_8742c.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8742c.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_8742c/fast' failed
+mingw32-make.exe: *** [cmTC_8742c/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a1ff9/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a1ff9.dir\build.make CMakeFiles/cmTC_a1ff9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_a1ff9.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_a1ff9.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+CMakeFiles\cmTC_a1ff9.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_a1ff9.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_a1ff9.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_a1ff9/fast' failed
+mingw32-make.exe: *** [cmTC_a1ff9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_fcdc5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fcdc5.dir\build.make CMakeFiles/cmTC_fcdc5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_fcdc5.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_fcdc5.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_fcdc5.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_fcdc5.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_fcdc5.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_fcdc5/fast' failed
+mingw32-make.exe: *** [cmTC_fcdc5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d1588/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d1588.dir\build.make CMakeFiles/cmTC_d1588.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_d1588.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_d1588.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_d1588.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_d1588.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d1588.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_d1588/fast' failed
+mingw32-make.exe: *** [cmTC_d1588/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c290a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c290a.dir\build.make CMakeFiles/cmTC_c290a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_c290a.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles\cmTC_c290a.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+CMakeFiles\cmTC_c290a.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_c290a.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c290a.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_c290a/fast' failed
+mingw32-make.exe: *** [cmTC_c290a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_75963/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_75963.dir\build.make CMakeFiles/cmTC_75963.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_75963.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles\cmTC_75963.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: language openmp not recognized
+gcc.exe: error: language openmp not recognized
+CMakeFiles\cmTC_75963.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_75963.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_75963.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_75963/fast' failed
+mingw32-make.exe: *** [cmTC_75963/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_2ab3d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2ab3d.dir\build.make CMakeFiles/cmTC_2ab3d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_2ab3d.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles\cmTC_2ab3d.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: +Oopenmp: No such file or directory
+CMakeFiles\cmTC_2ab3d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_2ab3d.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_2ab3d.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_2ab3d/fast' failed
+mingw32-make.exe: *** [cmTC_2ab3d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_fbd21/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fbd21.dir\build.make CMakeFiles/cmTC_fbd21.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_fbd21.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles\cmTC_fbd21.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-qsmp'
+CMakeFiles\cmTC_fbd21.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_fbd21.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_fbd21.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_fbd21/fast' failed
+mingw32-make.exe: *** [cmTC_fbd21/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_79473/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_79473.dir\build.make CMakeFiles/cmTC_79473.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_79473.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles\cmTC_79473.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-mp'
+CMakeFiles\cmTC_79473.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_79473.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_79473.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_79473/fast' failed
+mingw32-make.exe: *** [cmTC_79473/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_dc873/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_dc873.dir\build.make CMakeFiles/cmTC_dc873.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_dc873.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_dc873.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+CMakeFiles\cmTC_dc873.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_dc873.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_dc873.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_dc873/fast' failed
+mingw32-make.exe: *** [cmTC_dc873/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_bfae1/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bfae1.dir\build.make CMakeFiles/cmTC_bfae1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_bfae1.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_bfae1.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+CMakeFiles\cmTC_bfae1.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_bfae1.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_bfae1.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_bfae1/fast' failed
+mingw32-make.exe: *** [cmTC_bfae1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_83721/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_83721.dir\build.make CMakeFiles/cmTC_83721.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_83721.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_83721.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_83721.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_83721.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_83721.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_83721/fast' failed
+mingw32-make.exe: *** [cmTC_83721/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_1e1ba/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_1e1ba.dir\build.make CMakeFiles/cmTC_1e1ba.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_1e1ba.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_1e1ba.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_1e1ba.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_1e1ba.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_1e1ba.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_1e1ba/fast' failed
+mingw32-make.exe: *** [cmTC_1e1ba/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_fe984/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fe984.dir\build.make CMakeFiles/cmTC_fe984.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_fe984.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_fe984.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+[0mLinking C executable cmTC_fe984.exe[0m
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fe984.dir\link.txt --verbose=1
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fe984.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_fe984.dir/objects.a @CMakeFiles\cmTC_fe984.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -fopenmp    -Wl,--whole-archive CMakeFiles\cmTC_fe984.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fe984.exe -Wl,--out-implib,libcmTC_fe984.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fe984.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_fe984.dir\build.make:98: recipe for target 'cmTC_fe984.exe' failed
+mingw32-make.exe[1]: *** [cmTC_fe984.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_fe984/fast' failed
+mingw32-make.exe: *** [cmTC_fe984/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_001ea/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_001ea.dir\build.make CMakeFiles/cmTC_001ea.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_001ea.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_001ea.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: error: 'breaks_on_purpose' undeclared (first use in this function)
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_001ea.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_001ea.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_001ea.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_001ea/fast' failed
+mingw32-make.exe: *** [cmTC_001ea/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e0185/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e0185.dir\build.make CMakeFiles/cmTC_e0185.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_e0185.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_e0185.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_e0185.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_e0185.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e0185.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_e0185/fast' failed
+mingw32-make.exe: *** [cmTC_e0185/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_492c0/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_492c0.dir\build.make CMakeFiles/cmTC_492c0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_492c0.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_492c0.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_492c0.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_492c0.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_492c0.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_492c0/fast' failed
+mingw32-make.exe: *** [cmTC_492c0/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a509d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a509d.dir\build.make CMakeFiles/cmTC_a509d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_a509d.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles\cmTC_a509d.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: error: 'breaks_on_purpose' undeclared (first use in this function)
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:7:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_a509d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_a509d.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_a509d.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_a509d/fast' failed
+mingw32-make.exe: *** [cmTC_a509d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_707b9/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_707b9.dir\build.make CMakeFiles/cmTC_707b9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_707b9.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles\cmTC_707b9.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: language openmp not recognized
+gcc.exe: error: language openmp not recognized
+CMakeFiles\cmTC_707b9.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_707b9.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_707b9.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_707b9/fast' failed
+mingw32-make.exe: *** [cmTC_707b9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_2dfe2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2dfe2.dir\build.make CMakeFiles/cmTC_2dfe2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_2dfe2.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles\cmTC_2dfe2.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: +Oopenmp: No such file or directory
+CMakeFiles\cmTC_2dfe2.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_2dfe2.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_2dfe2.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_2dfe2/fast' failed
+mingw32-make.exe: *** [cmTC_2dfe2/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f5076/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f5076.dir\build.make CMakeFiles/cmTC_f5076.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_f5076.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles\cmTC_f5076.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-qsmp'
+CMakeFiles\cmTC_f5076.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_f5076.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f5076.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_f5076/fast' failed
+mingw32-make.exe: *** [cmTC_f5076/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_adedf/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_adedf.dir\build.make CMakeFiles/cmTC_adedf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding C object CMakeFiles/cmTC_adedf.dir/src.c.obj[0m
+C:\MinGW\bin\gcc.exe   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles\cmTC_adedf.dir\src.c.obj   -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-mp'
+CMakeFiles\cmTC_adedf.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_adedf.dir/src.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_adedf.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_adedf/fast' failed
+mingw32-make.exe: *** [cmTC_adedf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0f17e/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0f17e.dir\build.make CMakeFiles/cmTC_0f17e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_0f17e.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles\cmTC_0f17e.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+[0mLinking CXX executable cmTC_0f17e.exe[0m
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0f17e.dir\link.txt --verbose=1
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0f17e.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0f17e.dir/objects.a @CMakeFiles\cmTC_0f17e.dir\objects1.rsp
+C:\MinGW\bin\g++.exe   -DOpenMP_FLAG_DETECTED -fopenmp    -Wl,--whole-archive CMakeFiles\cmTC_0f17e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0f17e.exe -Wl,--out-implib,libcmTC_0f17e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0f17e.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_0f17e.dir\build.make:98: recipe for target 'cmTC_0f17e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_0f17e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_0f17e/fast' failed
+mingw32-make.exe: *** [cmTC_0f17e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0ddcf/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0ddcf.dir\build.make CMakeFiles/cmTC_0ddcf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_0ddcf.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED   -o CMakeFiles\cmTC_0ddcf.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx: In function 'int main()':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:7:3: error: 'breaks_on_purpose' was not declared in this scope
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_0ddcf.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_0ddcf.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_0ddcf.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_0ddcf/fast' failed
+mingw32-make.exe: *** [cmTC_0ddcf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b96f1/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b96f1.dir\build.make CMakeFiles/cmTC_b96f1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_b96f1.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles\cmTC_b96f1.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: /openmp: No such file or directory
+CMakeFiles\cmTC_b96f1.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_b96f1.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b96f1.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_b96f1/fast' failed
+mingw32-make.exe: *** [cmTC_b96f1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b46c5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b46c5.dir\build.make CMakeFiles/cmTC_b46c5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_b46c5.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles\cmTC_b46c5.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-Qopenmp'
+CMakeFiles\cmTC_b46c5.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_b46c5.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b46c5.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_b46c5/fast' failed
+mingw32-make.exe: *** [cmTC_b46c5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6dc3d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6dc3d.dir\build.make CMakeFiles/cmTC_6dc3d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_6dc3d.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles\cmTC_6dc3d.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx: In function 'int main()':
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:7:3: error: 'breaks_on_purpose' was not declared in this scope
+   breaks_on_purpose
+   ^
+C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx:9:1: error: expected ';' before '}' token
+ }
+ ^
+CMakeFiles\cmTC_6dc3d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_6dc3d.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6dc3d.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_6dc3d/fast' failed
+mingw32-make.exe: *** [cmTC_6dc3d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6030d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6030d.dir\build.make CMakeFiles/cmTC_6030d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_6030d.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles\cmTC_6030d.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: language openmp not recognized
+g++.exe: error: language openmp not recognized
+CMakeFiles\cmTC_6030d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_6030d.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6030d.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_6030d/fast' failed
+mingw32-make.exe: *** [cmTC_6030d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_79ea8/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_79ea8.dir\build.make CMakeFiles/cmTC_79ea8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_79ea8.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles\cmTC_79ea8.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: +Oopenmp: No such file or directory
+CMakeFiles\cmTC_79ea8.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_79ea8.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_79ea8.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_79ea8/fast' failed
+mingw32-make.exe: *** [cmTC_79ea8/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_723f9/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_723f9.dir\build.make CMakeFiles/cmTC_723f9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_723f9.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles\cmTC_723f9.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-qsmp'
+CMakeFiles\cmTC_723f9.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_723f9.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_723f9.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_723f9/fast' failed
+mingw32-make.exe: *** [cmTC_723f9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d47de/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d47de.dir\build.make CMakeFiles/cmTC_d47de.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+[0mBuilding CXX object CMakeFiles/cmTC_d47de.dir/src.cxx.obj[0m
+C:\MinGW\bin\g++.exe    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles\cmTC_d47de.dir\src.cxx.obj -c C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Thirdparty\g2o\build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-mp'
+CMakeFiles\cmTC_d47de.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_d47de.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d47de.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_d47de/fast' failed
+mingw32-make.exe: *** [cmTC_d47de/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
