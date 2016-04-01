@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8E6B2762-791C-440E-BC63-0AB8656C0051}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>rgbd_tum</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Examples\RGB-D\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">rgbd_tum.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">rgbd_tum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Examples\RGB-D\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">rgbd_tum.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">rgbd_tum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Examples\RGB-D\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">rgbd_tum.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">rgbd_tum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Examples\RGB-D\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">rgbd_tum.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">rgbd_tum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -O3 -march=native %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\ORB_SLAM2.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_videostab2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ts2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_superres2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_stitching2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_contrib2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_nonfree2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ocl2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_gpu2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_photo2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_objdetect2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_legacy2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_video2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ml2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_calib3d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_features2d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_highgui2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_imgproc2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_flann2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_core2411d.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\Debug\pangolin.lib;glu32.lib;opengl32.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\lib\glewd.lib;C:\Python34\libs\python34.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libpng\lib\libpng16_staticd.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\zlib\lib\zlibstaticd.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\libDBoW2.so;..\Thirdparty\g2o\lib\libg2o.so</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/Debug/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Examples/RGB-D/Debug/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -O3 -march=native %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\ORB_SLAM2.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_videostab2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ts2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_superres2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_stitching2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_contrib2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_nonfree2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ocl2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_gpu2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_photo2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_objdetect2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_legacy2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_video2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ml2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_calib3d2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_features2d2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_highgui2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_imgproc2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_flann2411.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_core2411.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\Release\pangolin.lib;glu32.lib;opengl32.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\lib\glew.lib;C:\Python34\libs\python34.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libpng\lib\libpng16_static.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\zlib\lib\zlibstatic.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\libDBoW2.so;..\Thirdparty\g2o\lib\libg2o.so</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/Release/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Examples/RGB-D/Release/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -O3 -march=native %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\ORB_SLAM2.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_videostab2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ts2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_superres2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_stitching2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_contrib2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_nonfree2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ocl2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_gpu2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_photo2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_objdetect2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_legacy2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_video2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ml2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_calib3d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_features2d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_highgui2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_imgproc2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_flann2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_core2411d.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\MinSizeRel\pangolin.lib;glu32.lib;opengl32.lib;_glew-NOTFOUND;C:\Python34\libs\python34.lib;_libpng-NOTFOUND;_zlib-NOTFOUND;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\libDBoW2.so;..\Thirdparty\g2o\lib\libg2o.so</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/MinSizeRel/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Examples/RGB-D/MinSizeRel/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -O3 -march=native %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\ORB_SLAM2.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_videostab2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ts2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_superres2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_stitching2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_contrib2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_nonfree2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ocl2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_gpu2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_photo2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_objdetect2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_legacy2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_video2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_ml2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_calib3d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_features2d2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_highgui2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_imgproc2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_flann2411d.lib;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\opencv_core2411d.lib;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\RelWithDebInfo\pangolin.lib;glu32.lib;opengl32.lib;_glew-NOTFOUND;C:\Python34\libs\python34.lib;_libpng-NOTFOUND;_zlib-NOTFOUND;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\libDBoW2.so;..\Thirdparty\g2o\lib\libg2o.so</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/RelWithDebInfo/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Examples/RGB-D/RelWithDebInfo/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\Examples\RGB-D\rgbd_tum.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/ORB_SLAM2.vcxproj">
+      <Project>424C6679-3F93-4A32-83E2-CFA224F93961</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/ZERO_CHECK.vcxproj">
+      <Project>C6A9830A-E21B-43BE-8007-2AED71873460</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
