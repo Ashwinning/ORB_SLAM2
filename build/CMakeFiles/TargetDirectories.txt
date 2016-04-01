@@ -1,0 +1,7 @@
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/mono_kitti.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/stereo_kitti.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/ORB_SLAM2.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/mono_tum.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/rgbd_tum.dir

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8C5362B0-007D-4C93-AEE4-4FCCBBA5D6B4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\include\opencv;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\include;C:\Program Files\PCL 1.7.2\3rdParty\Eigen\eigen3;C:\Users\Ashwin\Documents\GitHub\Pangolin\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\include;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\external\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2 -BC:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build --check-stamp-file C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-windres.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig-version.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVConfig.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-debug.cmake;E:\Program Files (x86)\OpenCV 2.4.11\opencv\build\x86\vc12\lib\OpenCVModules-release.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\cmake_modules\FindEigen3.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfigVersion.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinConfig.cmake;C:\Users\Ashwin\Documents\GitHub\Pangolin\build\src\PangolinTargets.cmake;C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/ORB_SLAM2.vcxproj">
+      <Project>424C6679-3F93-4A32-83E2-CFA224F93961</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/ZERO_CHECK.vcxproj">
+      <Project>C6A9830A-E21B-43BE-8007-2AED71873460</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/mono_kitti.vcxproj">
+      <Project>9023A88B-8348-4588-BFA7-875DA5415C04</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/mono_tum.vcxproj">
+      <Project>7889EA66-B5F5-4C3A-AC80-CD1FE8F909AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/rgbd_tum.vcxproj">
+      <Project>8E6B2762-791C-440E-BC63-0AB8656C0051</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/stereo_kitti.vcxproj">
+      <Project>65EA18CC-2017-454D-9680-3C240CDE5847</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

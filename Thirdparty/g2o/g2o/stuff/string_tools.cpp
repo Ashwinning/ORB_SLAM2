@@ -25,7 +25,7 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "string_tools.h"
-#include "os_specific.h"
+
 #include "macros.h"
 
 #include <cctype>

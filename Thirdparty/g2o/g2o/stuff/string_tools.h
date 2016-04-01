@@ -26,13 +26,14 @@
 
 #ifndef G2O_STRING_TOOLS_H
 #define G2O_STRING_TOOLS_H
-
+#include "os_specific.h"
 #include <string>
 #include <sstream>
 #include <cstdlib>
 #include <vector>
 
 #include "macros.h"
+
 
 namespace g2o {
 
