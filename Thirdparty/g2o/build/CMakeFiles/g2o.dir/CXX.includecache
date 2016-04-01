@@ -1729,8 +1729,6 @@ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools
 C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.cpp
 string_tools.h
 C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
-os_specific.h
-C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
 macros.h
 C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
 cctype
@@ -1753,6 +1751,8 @@ wordexp.h
 -
 
 C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
+os_specific.h
+C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
 string
 -
 sstream

@@ -568,6 +568,7 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/core/optimizable_
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/core/parameter.h
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/core/parameter_container.h
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/stuff/macros.h
+CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj: ../g2o/stuff/string_tools.h
 
@@ -1078,6 +1079,7 @@ CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/core/sparse_optimi
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/color_macros.h
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/macros.h
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/misc.h
+CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj: ../g2o/stuff/string_tools.h
 
@@ -1212,6 +1214,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/core/sparse_b
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/core/sparse_block_matrix.hpp
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/core/sparse_block_matrix_ccs.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/stuff/macros.h
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj: ../g2o/stuff/string_tools.h
 
@@ -1366,6 +1369,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/cor
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/core/sparse_block_matrix_ccs.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/core/sparse_optimizer.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/stuff/macros.h
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj: ../g2o/stuff/timeutil.h
@@ -1513,6 +1517,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/core/sparse_block_matrix_ccs.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/core/sparse_optimizer.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/stuff/macros.h
+CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj: ../g2o/stuff/string_tools.h
 
@@ -1530,6 +1535,7 @@ CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/core/parameter_c
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/stuff/color_macros.h
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/stuff/macros.h
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/stuff/misc.h
+CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj: ../g2o/stuff/string_tools.h
 
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.obj: C:/Program\ Files/PCL\ 1.7.2/3rdParty/Eigen/eigen3/Eigen/Core
@@ -2188,11 +2194,13 @@ CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/core/sparse_optimiz
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/core/sparse_optimizer.h
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/macros.h
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/misc.h
+CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj: ../g2o/stuff/timeutil.h
 
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj: ../g2o/stuff/macros.h
+CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj: ../g2o/stuff/os_specific.h
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj: ../g2o/stuff/property.cpp
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj: ../g2o/stuff/property.h
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj: ../g2o/stuff/string_tools.h

@@ -569,6 +569,7 @@ CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/parameter.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/parameter_container.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.obj
@@ -1079,6 +1080,7 @@ CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/color_macros.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/misc.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj
@@ -1213,6 +1215,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.obj
@@ -1367,6 +1370,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_optimizer.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/timeutil.h
@@ -1514,6 +1518,7 @@ CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_optimizer.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/parameter.cpp.obj
@@ -1531,6 +1536,7 @@ CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/color_macros.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/misc.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
 CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.obj
  C:/Program Files/PCL 1.7.2/3rdParty/Eigen/eigen3/Eigen/Core
@@ -2189,11 +2195,13 @@ CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/core/sparse_optimizer.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/misc.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/timeutil.h
 CMakeFiles/g2o.dir/g2o/stuff/property.cpp.obj
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/macros.h
+ C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.cpp
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/property.h
  C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/string_tools.h
