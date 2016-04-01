@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:49 PM.
+Build started 4/1/2016 11:12:47 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
 Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
@@ -36,7 +36,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.73
+Time Elapsed 00:00:02.39
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -55,7 +55,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:50 PM.
+Build started 4/1/2016 11:12:49 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
 Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\3.3.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
@@ -82,7 +82,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:00.84
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -94,157 +94,157 @@ The CXX compiler identification is MSVC, found in "C:/Users/Ashwin/Documents/Git
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_91341.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cab32.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:51 PM.
+Build started 4/1/2016 11:12:50 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_91341.vcxproj" on node 1 (default targets).
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_cab32.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_91341.dir\Debug\".
+  Creating directory "cmTC_cab32.dir\Debug\".
   Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_91341.dir\Debug\cmTC_91341.tlog\".
+  Creating directory "cmTC_cab32.dir\Debug\cmTC_cab32.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_91341.dir\Debug\cmTC_91341.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_cab32.dir\Debug\cmTC_cab32.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91341.dir\Debug\\" /Fd"cmTC_91341.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cab32.dir\Debug\\" /Fd"cmTC_cab32.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91341.dir\Debug\\" /Fd"cmTC_91341.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cab32.dir\Debug\\" /Fd"cmTC_cab32.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_91341.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_91341.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_91341.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_91341.dir\Debug\testCCompiler.obj
-  cmTC_91341.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_91341.exe
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_cab32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_cab32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_cab32.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_cab32.dir\Debug\testCCompiler.obj
+  cmTC_cab32.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_cab32.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_91341.dir\Debug\cmTC_91341.tlog\unsuccessfulbuild".
-  Touching "cmTC_91341.dir\Debug\cmTC_91341.tlog\cmTC_91341.lastbuildstate".
-Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_91341.vcxproj" (default targets).
+  Deleting file "cmTC_cab32.dir\Debug\cmTC_cab32.tlog\unsuccessfulbuild".
+  Touching "cmTC_cab32.dir\Debug\cmTC_cab32.tlog\cmTC_cab32.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_cab32.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.02
+Time Elapsed 00:00:01.21
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_84422.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_47a6a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:52 PM.
+Build started 4/1/2016 11:12:52 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_84422.vcxproj" on node 1 (default targets).
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_47a6a.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_84422.dir\Debug\".
+  Creating directory "cmTC_47a6a.dir\Debug\".
   Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_84422.dir\Debug\cmTC_84422.tlog\".
+  Creating directory "cmTC_47a6a.dir\Debug\cmTC_47a6a.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_84422.dir\Debug\cmTC_84422.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_47a6a.dir\Debug\cmTC_47a6a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84422.dir\Debug\\" /Fd"cmTC_84422.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47a6a.dir\Debug\\" /Fd"cmTC_47a6a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84422.dir\Debug\\" /Fd"cmTC_84422.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47a6a.dir\Debug\\" /Fd"cmTC_47a6a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_84422.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_84422.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_84422.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_84422.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_84422.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_84422.exe
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_47a6a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_47a6a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_47a6a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_47a6a.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_47a6a.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_47a6a.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_84422.dir\Debug\cmTC_84422.tlog\unsuccessfulbuild".
-  Touching "cmTC_84422.dir\Debug\cmTC_84422.tlog\cmTC_84422.lastbuildstate".
-Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_84422.vcxproj" (default targets).
+  Deleting file "cmTC_47a6a.dir\Debug\cmTC_47a6a.tlog\unsuccessfulbuild".
+  Touching "cmTC_47a6a.dir\Debug\cmTC_47a6a.tlog\cmTC_47a6a.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_47a6a.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.77
+Time Elapsed 00:00:00.85
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_26375.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_02d62.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:53 PM.
+Build started 4/1/2016 11:12:53 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_26375.vcxproj" on node 1 (default targets).
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_02d62.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_26375.dir\Debug\".
+  Creating directory "cmTC_02d62.dir\Debug\".
   Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_26375.dir\Debug\cmTC_26375.tlog\".
+  Creating directory "cmTC_02d62.dir\Debug\cmTC_02d62.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_26375.dir\Debug\cmTC_26375.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_02d62.dir\Debug\cmTC_02d62.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26375.dir\Debug\\" /Fd"cmTC_26375.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_02d62.dir\Debug\\" /Fd"cmTC_02d62.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26375.dir\Debug\\" /Fd"cmTC_26375.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_02d62.dir\Debug\\" /Fd"cmTC_02d62.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_26375.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_26375.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_26375.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_26375.dir\Debug\testCXXCompiler.obj
-  cmTC_26375.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_26375.exe
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_02d62.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_02d62.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_02d62.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_02d62.dir\Debug\testCXXCompiler.obj
+  cmTC_02d62.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_02d62.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_26375.dir\Debug\cmTC_26375.tlog\unsuccessfulbuild".
-  Touching "cmTC_26375.dir\Debug\cmTC_26375.tlog\cmTC_26375.lastbuildstate".
-Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_26375.vcxproj" (default targets).
+  Deleting file "cmTC_02d62.dir\Debug\cmTC_02d62.tlog\unsuccessfulbuild".
+  Touching "cmTC_02d62.dir\Debug\cmTC_02d62.tlog\cmTC_02d62.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_02d62.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.84
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fbc18.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d46d2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:54 PM.
+Build started 4/1/2016 11:12:54 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_fbc18.vcxproj" on node 1 (default targets).
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_d46d2.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_fbc18.dir\Debug\".
+  Creating directory "cmTC_d46d2.dir\Debug\".
   Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_fbc18.dir\Debug\cmTC_fbc18.tlog\".
+  Creating directory "cmTC_d46d2.dir\Debug\cmTC_d46d2.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_fbc18.dir\Debug\cmTC_fbc18.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_d46d2.dir\Debug\cmTC_d46d2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fbc18.dir\Debug\\" /Fd"cmTC_fbc18.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46d2.dir\Debug\\" /Fd"cmTC_d46d2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fbc18.dir\Debug\\" /Fd"cmTC_fbc18.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46d2.dir\Debug\\" /Fd"cmTC_d46d2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_fbc18.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_fbc18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_fbc18.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fbc18.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_fbc18.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_fbc18.exe
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_d46d2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_d46d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_d46d2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_d46d2.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d46d2.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_d46d2.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_fbc18.dir\Debug\cmTC_fbc18.tlog\unsuccessfulbuild".
-  Touching "cmTC_fbc18.dir\Debug\cmTC_fbc18.tlog\cmTC_fbc18.lastbuildstate".
-Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_fbc18.vcxproj" (default targets).
+  Deleting file "cmTC_d46d2.dir\Debug\cmTC_d46d2.tlog\unsuccessfulbuild".
+  Touching "cmTC_d46d2.dir\Debug\cmTC_d46d2.tlog\cmTC_d46d2.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_d46d2.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.83
 
 
 
@@ -252,40 +252,40 @@ Time Elapsed 00:00:00.78
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_485df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1be43.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 3/31/2016 10:15:55 PM.
+Build started 4/1/2016 11:12:55 AM.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_485df.vcxproj" on node 1 (default targets).
+Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_1be43.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_485df.dir\Debug\".
+  Creating directory "cmTC_1be43.dir\Debug\".
   Creating directory "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_485df.dir\Debug\cmTC_485df.tlog\".
+  Creating directory "cmTC_1be43.dir\Debug\cmTC_1be43.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_485df.dir\Debug\cmTC_485df.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_1be43.dir\Debug\cmTC_1be43.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_485df.dir\Debug\\" /Fd"cmTC_485df.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\feature_tests.cxx
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1be43.dir\Debug\\" /Fd"cmTC_1be43.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_485df.dir\Debug\\" /Fd"cmTC_485df.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1be43.dir\Debug\\" /Fd"cmTC_1be43.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_485df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_485df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_485df.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_485df.dir\Debug\feature_tests.obj
-  cmTC_485df.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_485df.exe
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_1be43.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_1be43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ashwin/Documents/GitHub/ORB_SLAM2/build/CMakeFiles/CMakeTmp/Debug/cmTC_1be43.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1be43.dir\Debug\feature_tests.obj
+  cmTC_1be43.vcxproj -> C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\Debug\cmTC_1be43.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_485df.dir\Debug\cmTC_485df.tlog\unsuccessfulbuild".
-  Touching "cmTC_485df.dir\Debug\cmTC_485df.tlog\cmTC_485df.lastbuildstate".
-Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_485df.vcxproj" (default targets).
+  Deleting file "cmTC_1be43.dir\Debug\cmTC_1be43.tlog\unsuccessfulbuild".
+  Touching "cmTC_1be43.dir\Debug\cmTC_1be43.tlog\cmTC_1be43.lastbuildstate".
+Done Building Project "C:\Users\Ashwin\Documents\GitHub\ORB_SLAM2\build\CMakeFiles\CMakeTmp\cmTC_1be43.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.82
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates
